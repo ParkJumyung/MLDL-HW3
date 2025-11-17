@@ -1,0 +1,29 @@
+Metadata-Version: 2.4
+Name: mldl_hw3
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: catboost>=1.2.8
+Requires-Dist: category-encoders>=2.8.1
+Requires-Dist: ipykernel>=7.1.0
+Requires-Dist: kaggle>=1.7.4.5
+Requires-Dist: lightgbm>=4.6.0
+Requires-Dist: matplotlib>=3.10.7
+Requires-Dist: numpy>=2.2.6
+Requires-Dist: pandas>=2.3.3
+Requires-Dist: scikit-learn>=1.7.2
+Requires-Dist: seaborn>=0.13.2
+Requires-Dist: xgboost>=3.1.1
+
+### Download Dataset
+
+```bash
+uv run kaggle competitions download -c gist-mldl-25f-hw3
+```
+
+### Submit Prediction
+
+```bash
+kaggle competitions submit -c gist-mldl-25f-hw3 -f submission.csv -m "Message"
+```
